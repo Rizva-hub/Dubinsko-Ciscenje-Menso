@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menso - Dubinsko Čišćenje</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css/style.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">Menso</div>
+        <nav>
+            <a href="#o-nama">O nama</a>
+            <a href="#usluge">Usluge</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Profesionalno dubinsko čišćenje</h1>
+        <p>Vaš nameštaj kao nov - brzo, temeljno i pouzdano.</p>
+        <a href="#kontakt" class="cta-button">Zakaži čišćenje</a>
+    </section>
+
+    <section id="o-nama">
+        <h2>O nama</h2>
+        <p>Menso je firma specijalizovana za dubinsko čišćenje nameštaja, tepiha i automobila. Koristimo savremenu opremu i ekološki prihvatljiva sredstva za čišćenje.</p>
+    </section>
+
+    <section id="usluge">
+        <h2>Naše usluge</h2>
+        <ul>
+            <li>Dubinsko čišćenje garnitura</li>
+            <li>Čišćenje tepiha i staza</li>
+            <li>Pranje auto sedišta</li>
+            <li>Neutralisanje neprijatnih mirisa</li>
+        </ul>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontaktiraj nas</h2>
+        <form onsubmit="posaljiPoruku(event)">
+            <input type="text" placeholder="Vaše ime" required />
+            <input type="email" placeholder="Vaš email" required />
+            <textarea placeholder="Vaša poruka" required></textarea>
+            <button type="submit">Pošalji poruku</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Menso Dubinsko Čišćenje. Sva prava zadržana.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+function posaljiPoruku(event) {
+    event.preventDefault(); // Sprečava refresh stranice
+    alert("Hvala što ste nas kontaktirali! Odgovorićemo u najkraćem roku.");
+}
